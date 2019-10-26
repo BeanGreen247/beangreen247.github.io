@@ -1,7 +1,3 @@
-# Thomas Mozdren
-
-Welcome to my minimalistic website. I love it. I hope you too. All written in Markdown.
-
 ## Page Contents
 
 1. [Who am I?](#Who am I) 
