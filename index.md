@@ -1,13 +1,4 @@
-## Page Contents
-
-1. [Who am I?](#who-am-I) 
-2. [Why I write open source code](#why-I-write-open-source-code)
-3. [Tools I use](#tools-I-use)
-4. [Projects](#projects)
-5. [Wallpapers](#wallpapers)
-6. [Contacts](#contacts)
-
-## Who am I 
+## Welcome
 
 I am a IT student on the Middle school in Frenštát pod Radhoštěm called Gymnázium a Střední průmyslová škola elektrotechniky a informatiky. Love creating things with the help of code and adore AI. When it comes to social life I am not afraid to go out with people that I just met.
 
