@@ -1,8 +1,8 @@
 ## Page Contents
 
-1. [Who am I?](#who am I) 
-2. [Why I write open source code](#why I write open source code)
-3. [Tools I use](#tools I use)
+1. [Who am I?](#who-am-I) 
+2. [Why I write open source code](#why-I-write-open-source-code)
+3. [Tools I use](#tools-I-use)
 4. [Projects](#projects)
 5. [Wallpapers](#wallpapers)
 6. [Contacts](#contacts)
