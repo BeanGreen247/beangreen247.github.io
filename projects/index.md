@@ -2,7 +2,7 @@
 
 ## Projects
 
-[home (website repository)](https://github.com/BeanGreen247/home)
+[beangreen247.github.io (website repository)](https://github.com/BeanGreen247/beangreen247.github.io/)
 
 [Minimalist chatbot](https://github.com/BeanGreen247/Minimalist-chatbot)
 
