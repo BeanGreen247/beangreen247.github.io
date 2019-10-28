@@ -4,6 +4,8 @@
 
 [beangreen247.github.io (website repository)](https://github.com/BeanGreen247/beangreen247.github.io/)
 
+[Image to text converter in Python](https://github.com/BeanGreen247/Image-to-text-converter)
+
 [Minimalist chatbot](https://github.com/BeanGreen247/Minimalist-chatbot)
 
 [My config of the simple terminal (st) from suckless.org (https://st.suckless.org/)](https://github.com/BeanGreen247/st)
