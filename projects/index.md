@@ -4,6 +4,8 @@
 
 [beangreen247.github.io (website repository)](https://github.com/BeanGreen247/beangreen247.github.io/)
 
+[BG Notes](https://github.com/BeanGreen247/BG-Notes)
+
 [Image to text converter in Python](https://github.com/BeanGreen247/Image-to-text-converter)
 
 [Minimalist chatbot](https://github.com/BeanGreen247/Minimalist-chatbot)
