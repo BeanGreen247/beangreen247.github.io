@@ -2,10 +2,12 @@
 
 ## Wallpapers
 
-[Desktop Wallpaper 1080p](https://raw.githubusercontent.com/beangreen247.github.io/master/wallpaper/wallpaper.png)
+[Desktop Wallpaper 1080p](https://github.com/BeanGreen247/beangreen247.github.io/raw/master/wallpaper/wallpaper.png)
 
-[Phone Wallpaper 1440p](https://raw.githubusercontent.com/beangreen247.github.io/master/wallpaper/phone-wallpaper.jpg)
+[Phone Wallpaper 1440p](https://github.com/BeanGreen247/beangreen247.github.io/raw/master/wallpaper/phone-wallpaper.jpg)
 
-[Minimalist Desktop Wallpaper 4k](https://raw.githubusercontent.com/beangreen247.github.io/master/wallpaper/MINIMALIST_WALLPAPER-4K.png)
+[Minimalist Desktop Wallpaper 4k](https://github.com/BeanGreen247/beangreen247.github.io/raw/master/wallpaper/MINIMALIST_WALLPAPER-4K.png)
 
-[Minimalist Phone Wallpaper 1440](https://raw.githubusercontent.com/beangreen247.github.io/master/wallpaper/MINIMALIST_PHONE_WALLPAPER.png)
+[Minimalist Phone Wallpaper 1440](https://github.com/BeanGreen247/beangreen247.github.io/raw/master/wallpaper/MINIMALIST_PHONE_WALLPAPER.png)
+
+[I LOVE PYTHON Wallpaper](https://github.com/BeanGreen247/beangreen247.github.io/raw/master/wallpaper/I_LOVE_PYTHON.png)
