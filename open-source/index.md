@@ -4,4 +4,4 @@
 
 At first I didn't think much of it, until I tried it. The beauty in writing open source code is that you get feedback from other, sometimes more experienced, people. Or you can work with them to create amazing projects. Some of my friends work on open source projects.
 
-One of my favorite projects is [Object detection using Tensorflow](https://github.com/BeanGreen247/Object-detection-using-Tensorflow). It was a lot of fun to make.
+One of my favorite projects is [Python-AI-Arts](https://github.com/BeanGreen247/Python-AI-Arts). It was a lot of fun to make.

@@ -4,7 +4,7 @@
 
 [beangreen247.github.io (website repository)](https://github.com/BeanGreen247/beangreen247.github.io/)
 
-[Thallium Editor](https://github.com/BeanGreen247/Thallium-Editor)
+[Python-AI-Arts](https://github.com/BeanGreen247/Python-AI-Arts)
 
 [BG Notes](https://github.com/BeanGreen247/BG-Notes)
 
