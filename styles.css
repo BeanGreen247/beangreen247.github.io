@@ -27,7 +27,7 @@ th, td {
 
 th {
 	color: #fff;
-	background: #990000 none repeat-x scroll left top;
+	background: #0757ce none repeat-x scroll left top;
 }
 
 td {
@@ -65,7 +65,7 @@ a,
 
 a:hover,
 .sidebar li ul li a.readmore:hover {
-	color: #990000;
+	color: #0757ce;
 }
 
 a:focus {
@@ -74,7 +74,7 @@ a:focus {
 
 
 a.button { 
-    background-color: #990000;
+    background-color: #0757ce;
     border-radius: 5px 5px 5px 5px;
     color: #FFFFFF;
     display: inline-block;
@@ -86,7 +86,7 @@ a.button {
 }
 
 a.button:hover {
-	background-color: #800000;
+	background-color: #0757ce;
 }
 
 
@@ -125,7 +125,7 @@ form input, form select, form textarea {
 
 form input.formbutton {
 	border: none;
-    background-color: #990000;
+    background-color: #0757ce;
 	color: #ffffff;
 	font-weight: bold;
 	padding: 6px 10px;
@@ -146,7 +146,7 @@ form.searchform p {
 
 
 span.required {
-	color: #ff0000;
+	color: #0795ce;
 }
 
 h1 {
@@ -164,7 +164,7 @@ h2 {
 }
 
 h3 {
-	color: #990000;
+	color: #0795ce;
 	font-size: 1.6em;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -231,10 +231,10 @@ header h1 a, header h1 a:hover {
 
 
 nav {
-	border-top: 1px solid #B30000;
-	border-bottom: 1px solid #B30000;
+	border-top: 1px solid #0795ce;
+	border-bottom: 1px solid #0795ce;
 	height: 45px;
-	background-color: #990000;
+	background-color: #0795ce;
 }
 
 nav ul {
@@ -263,9 +263,9 @@ nav ul li a {
 nav ul li.selected a,
 nav ul li.selected a:hover { 
 	color: #fff;
-	background-color: #800000;
+	background-color: #0757ce;
 	font-weight:bold;
-	box-shadow: -1px 1px 0 #660000;
+	box-shadow: -1px 1px 0 #045879;
 }
 
 
@@ -384,7 +384,7 @@ article .article-info a {
 footer {
 	margin:20px auto 0;
 	background: #222;
-	border-top: 10px solid #800000;
+	border-top: 10px solid #0795ce;
 }
 
 footer p {
