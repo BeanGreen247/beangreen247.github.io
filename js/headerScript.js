@@ -1,11 +1,11 @@
 document.write(
 "<aside class='topNav nav-blue' id='topNav'>" +
 		"<div class='container navBar'>" +
-			"<a href='index.html'><h2>Home</h2> </a>" +
-			"<a href='mailto:mozdrent@gmail.com?Subject=Hi%20Thomas'><h2>E-Mail</h2> </a>" +
-			"<a target='_blank' href='cv/cv.pdf'><h2>CV</h2> </a>" +
-			"<a target='_blank'href='https://www.youtube.com/channel/UCQbA5Nc4oq6uMS2idDWsxkw'><h2>YouTube</h2> </a>"+
-      "<a target='_blank' href='pages/wallpaper.html'><h2>Wallpapers</h2> </a>"+
+			"<a href='index.html'><i class='fa fa-home fa-fw fa-2x'></i></a>" +
+			"<a href='mailto:mozdrent@gmail.com?Subject=Hi%20Thomas'><i class='fa fa-envelope fa-fw fa-2x'></i></a>" +
+			"<a target='_blank' href='cv/cv.pdf'><i class='fa fa-file-pdf-o fa-fw fa-2x'></i></a>" +
+			"<a target='_blank'href='https://www.youtube.com/channel/UCQbA5Nc4oq6uMS2idDWsxkw'><i class='fa fa-youtube-play fa-fw fa-2x'></i></a>"+
+      "<a target='_blank' href='pages/wallpaper.html'><i class='fa fa-picture-o fa-fw fa-2x'></i></a>"+
 		"</div>" +
 	"</aside>"
 );
