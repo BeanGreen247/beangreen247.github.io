@@ -10,26 +10,23 @@
     <title>Tomas Mozdren Portfolio</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="logo.png" />
-    <script src="js/menubuton.js"></script>
+    <script src="js/menubutton.js"></script>
 	<script src="js/jquery.js"></script>
-	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 </head>
 
 <body>
 
-    <a id="menu-toggle" style="text-decoration: none;text-align:right;float:right;font-size:20px;cursor:pointer;background-color:gray;color:white;margin:5px;padding:5px 10px 5px 10px;right:0.02%;top:-0.05%" onclick="openNav()" class="toggle">&#9776;</a>
-      
-      <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "35%";
-      }
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-      }
-      </script>   
-
+   <!-- <a id="menu-toggle" style="text-decoration: none;text-align:right;float:right;font-size:20px;cursor:pointer;background-color:gray;color:white;margin:5px;padding:5px 10px 5px 10px;right:0.02%;top:-0.05%" onclick="openNav()" class="menu-toggle">&#9776;</a>
+-->
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style='color:white;'>&times;</a>
+        <div class="menuclosebuttonstyle">
+        <a href="#top" class="closebtn" onclick="closeNav()">x</a>
+        </div>
         <a href="#topNav" onclick="closeNav()">Home</a>
         <a href="#about" onclick="closeNav()">About</a>
         <a href="#development" onclick="closeNav()">Development</a>
@@ -40,6 +37,9 @@
         <a href="#contacts" onclick="closeNav()">Contact</a>
       </div>
 
+      <div class="menubuttonstyle">
+        <a id="menu-toggle" onclick="openNav()" class="menu-toggle">&#9776;</a>
+      </div>  
     <script type="text/javascript" src="js/headerScript.js"> </script>
 
     <div class="headername">
