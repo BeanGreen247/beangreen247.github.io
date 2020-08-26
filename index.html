@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Tomas Mozdren">
-    <title>Tomas Mozdren Portfolio</title>
+    <title>Tomas Mozdren</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="logo.png" />
-    <script src="js/menubutton.js"></script>
 	<script src="js/jquery.js"></script>
     <script src="js/jquery.min.js"></script>
     <script async="" src="https://www.google-analytics.com/analytics.js"></script>
@@ -29,169 +28,223 @@
 </head>
 
 <body>
-
-   <!-- <a id="menu-toggle" style="text-decoration: none;text-align:right;float:right;font-size:20px;cursor:pointer;background-color:gray;color:white;margin:5px;padding:5px 10px 5px 10px;right:0.02%;top:-0.05%" onclick="openNav()" class="menu-toggle">&#9776;</a>
--->
-    <div id="mySidenav" class="sidenav">
-        <div class="menuclosebuttonstyle">
-        <a class="closebtn" onclick="closeNav()">x</a>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/imgmodal.js"></script>
+    <script src="js/topNavScript.js"></script>
+    <br id="about"><br><br>
+    <div class="grid-container">
+    <div class="grid-item">
+      <h2>About me</h2>
+      <hr class="small">
+      <p>I am a somewhat capable developer with experience in programming everything from Web development to App development creating web apps and desktop applications.</p>
+      <p>If you need something, just let me know and I will see what I can do. My background should give you an idea of what I am capable of. </p>
+    </div>
+    <div class="grid-item">
+      <img src="img/me1.jpg" style="width:70%;height: 70%;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          <p>Click on the image for more.<p>
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+            
+                <div class="mySlides">
+                  <img src="img/me1.jpg" style="width:70%;height:70%">
+                </div>
+            
+                <div class="mySlides">
+                  <img src="img/me2.jpg" style="width:100%;height:100%">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+      
+                <div class="columnimg">
+                  <img class="demo cursor" alt=""></img>
+                </div>
+                <div class="columnimg">
+                  <img class="demo cursor" alt=""></img>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="grid-item">
+      <br id="projects"><br><br><h2>Projects</h2>
+      <hr class="small">
+      <p>If you want to see some of my projects go and look at my <a target="_blank" href="https://github.com/BeanGreen247">GitHub</a>.</p>
+      <p>To give a basic rundown. You will find some interesting and some boring projects there.</p>
+      <p>I work mostly in C#, HTML , CSS, JavaScript and Python.</p>
+    </div>  
+    <div class="grid-item">
+      <br><br><br>
+      <a target="_blank" href="https://github.com/BeanGreen247/Python-AI-Arts"><img src="img/pythonaiarts.png" height="100%" width="70%" class="hover-shadow cursor"></a>
+    </div>
+    <div class="grid-item">
+      <br id="documents"><br><br>
+      <h2>Documents</h2>
+      <hr class="small">
+      <p>My CV, Résumé and certificates.</p>
+    </div>
+    <div class="grid-item">
+      <br><br><br>
+      <a target="_blank" href="https://beangreen247.github.io/documents/cv.pdf"><img src="img/cv.png" height="70%" width="30%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="https://beangreen247.github.io/documents/resume.pdf"><img src="img/resume.png" height="70%" width="30%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="https://beangreen247.github.io/documents/pearsoncertificate.pdf"><img src="img/pearsoncertificate.png" height="70%" width="30%" class="hover-shadow cursor"></a>
+    </div>
+    <div class="grid-item">
+      <br><br><br><br><br id="setup"><br><br>
+      <h2>PC Setup and Specs</h2>
+      <hr class="small">
+      <p>This is my setup that I use.</p>
+      <h5>Monitors</h5> 
+      <p>Samsung SyncMaster 2243nw 16:10 60Hz 1680x1050<br>
+      Acer V173 4:3 60Hz 1280x1024</p>
+      <h5>Peripherals</h5>
+      <p>Mouse: Plano MT10918<br>
+      Keyboard: Genius LuxeMate 100<br>
+      Webcam: Genius FaceCam 1000X<br>
+      Printer: HP LaserJet Pro M201n<br>
+      Scanner: HP ScanJet 3800</p>
+      <h5>Desktop</h5>
+      <p>Motherboard: ASRock FM2A68M-DG3+<br>
+      CPU: AMD Athlon X4 840 Quad (4) @ 3.100GHz<br>
+      GPU: NVIDIA GeForce 8600 GT 512 MB<br>
+      RAM: 2x Kingston KHX1866C10D3/4G DIMM DDR3 1866 MHz<br>
+      HDD: TOSHIBA MQ04ABF1 1TB (250GiB OS partition, 673GiB home partition)</p>
+    </div>  
+    <div class="grid-item">
+      <br><br><br><br>
+      <br><br><br><div class="rowimg">
+        <div class="columnimg">
+          <img src="img/setup1.jpg" style="width:100%" onclick="openModal1();currentSlide1(1)" class="hover-shadow">
+          <p>Click on the image for more.<p>
         </div>
-        <a href="#topNav" onclick="closeNav()">Home</a>
-        <a href="#about" onclick="closeNav()">About</a>
-        <a href="#development" onclick="closeNav()">Development</a>
-        <a href="#portfolio" onclick="closeNav()">Portfolio</a>
-        <a href="#websites" onclick="closeNav()">Websites</a>
-        <a href="#software" onclick="closeNav()">Released Software</a>
-        <a href="#ytvid" onclick="closeNav()">Leatest Video</a>
-        <a href="#contacts" onclick="closeNav()">Contact</a>
       </div>
+      
+      <div id="myModal1" class="modal">
+        <span class="close cursor" onclick="closeModal1()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides1">
+            <img src="img/setup1.jpg" style="width:100%;height:100%">
+          </div>
+      
+          <div class="mySlides1">
+            <img src="img/setup2.jpg" style="width:100%;height:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption1"></p>
+          </div>
 
-      <div class="menubuttonstyle">
-        <a id="menu-toggle" onclick="openNav()" class="menu-toggle">&#9776;</a>
-      </div>  
-    <script type="text/javascript" src="js/headerScript.js"> </script>
-
-    <div class="headername">
-        <img src="logo.png" width="5%" height="5%"></img>
-        <h1><b>Tomas Mozdren</b></h1>
-        <h2>Hobbyist Software Developer</h2>
-    </div>
-
-    <div id="about"; class="maintext">
-        <h2 style="font-size: 35px;margin-bottom: 0px;"><b>TL;DR</b></h1>
-        <hr class="small">
-        <p>
-            I am a somewhat capable developer with experience in programming everything from Web development to App
-            development creating web apps and desktop applications. If you need something, just let me know and I will
-            see what I can do. My background should give you an idea of what I am capable of.
-        </p>
-    </div>
-
-    <div id="development"; class="secondarytext">
-        <h2 style="font-size: 35px;margin-bottom: 0px;"><b>Development</b></h2>
-        <hr class="small">
-    <h4>
-        <strong>Desktop</strong>
-    </h4>
-    <p>C# Desktop Application Development</p>
-    <h4>
-        <strong>Web</strong>
-    </h4>
-    <p>From static sites to Web Applications</p>
-    <h4>
-        <strong>Team Dev</strong>
-    </h4>
-    <p>Prefer working on apps in a team</p>
-    <h4>
-        <strong>Open source</strong>
-    </h4>
-    <p>I love working on open source apps</p>
-    </div>
-
-    <div id="portfolio" class="maintext">
-    <h2 style="font-size: 35px;margin-bottom: 0px;">My Projects/ Work</h2>
-    <hr class="small">
-    <h4>
-        <strong>UraniumNote</strong>
-    </h4>
-    <div class="imageshome">
-        <a target="_blank" href="https://github.com/BeanGreen247/UraniumNote"><img src="img/uraniumnote.png" title="Clicke me!"></img></a>
-    </div>
-    <p>JavaScript based note taking app</p>
-    <h4>
-        <strong>UraniumWebTerm</strong>
-    </h4>
-    <div class="imageshome">
-        <a target="_blank" href="https://github.com/BeanGreen247/UraniumWebTerm"><img src="img/uraniumwebterm.png" title="Clicke me!"></img></a>
-    </div>
-    <p>JavaScript based terminal emulator</p>
-    <h4>
-        <strong>Minimalist chatbot</strong>
-    </h4>
-    <div class="imageshome">
-        <a target="_blank" href="https://github.com/BeanGreen247/Minimalist-chatbot"><img src="img/minimalistchatbot.png" title="Clicke me!"></img></a>
-    </div>
-    <p>JavaScript based chatbot</p>
-    <h4>
-        <strong>Python AI Arts</strong>
-    </h4>
-    <div class="imageshome">
-        <a target="_blank" href="https://github.com/BeanGreen247/Python-AI-Arts"><img src="img/pythonaiarts.png" title="Clicke me!"></img></a>
-    </div>
-    <p>AI for image manipulation written in Python</p>
-    </div>
-
-    <div id="websites" class="secondarytext">
-    <h2 style="font-size: 35px;margin-bottom: 0px;">Websites</h2>
-    <hr class="small">
-        <div class="hyperlinks">
-            <p><a target="_blank" href="https://beangreen247.github.io/astar-pathfinding-in-js/">A* Pathfinding Algorithm in JS</a></p>
-            <p><a target="_blank" href="https://beangreen247.github.io/audio-visualizer-in-js/">Audio visualizer in JS</a></p>
-            <p><a target="_blank" href="https://beangreen247.github.io/UraniumNote/">UraniumNote</a></p>
-            <p><a target="_blank" href="https://beangreen247.github.io/UraniumWebTerm">UraniumWebTerm</a></p>
-            <p><a target="_blank" href="https://beangreen247.github.io/Minimalist-chatbot">Minimalist-chatbot</a></p>
-            <p><a target="_blank" href="https://beangreen247.github.io/Linux-Man-Pages-In-PDF/">Linux manpages in PDF</a></p>
-            <p><a target="_blank" href="https://beangreen247.github.io/DebloatWindows10/">DebloatWindows10</a></p>
+          <div class="columnimg">
+            <img class="demo1 cursor" alt="Setup Monitors + Peripherals"></img>
+          </div>
+          <div class="columnimg">
+            <img class="demo1 cursor" alt="Setup wide shot"></img>
+          </div>
         </div>
+      </div>
     </div>
-    
-    <div id="software" class="maintext">
-    <h2 style="font-size: 35px;margin-bottom: 0px;">Released Software</h2>
-    <hr class="small">
-    <h4>
-        <strong>Image To ASCII Converter</strong>
-    </h4>
-    <div class="imageshome">
-        <a target="_blank" href="https://github.com/BeanGreen247/ImageToASCIIConverter"><img src="img/imagetoasciiconverter.png" title="Clicke me!"></img></a>
+    <div class="grid-item">
+      <br id="os"><br><br><br><br><h2>Favorite OS</h2>
+      <hr class="small">
+      <p>OS: Manjaro Linux x86_64<br>
+      Kernel: 5.7.15-1-MANJARO<br>
+      Shell: zsh 5.8<br>
+      WM: Openbox<br>
+      WM Theme: KvArcDark<br>
+      Theme: Sierra-dark-alt [GTK2/3]<br>
+      Icons: WhiteSur-dark [GTK2/3]<br>
+      Terminal: alacritty</p>
     </div>
-    <p>A utility to convert an image to ASCII art.</p>
-    <p>Written in C#.</p>
-    <h4>
-        <strong>Windows 10 Minimizer</strong>
-    </h4>
-    <div class="imageshome">
-        <a target="_blank" href="https://github.com/BeanGreen247/Windows-10-Minimizer"><img src="img/windows10minimizer.png" title="Clicke me!"></img></a>
+    <div class="grid-item">
+      <br><br><br>
+      <a target="_blank" href="https://manjaro.org/"><img src="img/osscreenshot.png" height="100%" width="100%" class="hover-shadow cursor"></a>
     </div>
-    <p>A utility to make your Windows 10 install more lightweight.</p>
-    <p>Written in C#.</p>
+    <div class="grid-item">
+      <br><br><br><br>
+      <br id="software"><br><br><h2>Released Software</h2>
+      <hr class="small"><br><br><br>
+      <h5>Image To ASCII Converter</h5>
+      <p>A utility to convert an image to ASCII art.
+      Written in C#.</p><br>
+      <br><br><br><br><br><br><br><br>
+      <h5>Windows 10 Minimizer</h5>
+      <p>A utility to make your Windows 10 install more lightweight.
+      Written in C#.</p>
     </div>
-    
-    <script src="js/ytlatestvid.js" type="text/javascript">
-    </script>
-
-<div id="contacts" class="maintext">
-<footer>
-    <h2><strong>Thomas Mozdren Software Development</strong></h2>
-                    <ul class="list-unstyled">
-                        <li>Email:  <a href="mailto:mozdrent@gmail.com">mozdrent@gmail.com</a></li>
-                    </ul>
-                    <ul class="botbar">
-                        <li>
-                            <a title="My Linkedin" target="_blank" href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-mozd%C5%99e%C5%88-3382b71a6/"><img height="25px" width="25px" src="icons/linkedin.png"></img></a>
-                        </li>
-                        <li>
-                            <a title="My Twitter" target="_blank" href="https://twitter.com/beangreen247"><img height="25px" width="25px" src="icons/twitter.png"></img></a>
-                        </li>
-                        <li>
-                            <a title="Main channel" target="_blank" href="https://www.youtube.com/channel/UCQbA5Nc4oq6uMS2idDWsxkw"><img height="25px" width="25px" src="icons/yt.png"></img></a>
-                        </li>
-                        <li>
-                            <a title="Music channel" target="_blank" href="https://www.youtube.com/channel/UC_Qo-mebrSPXU7EpkyJfJ0g"><img height="25px" width="25px" src="icons/yt.png"></img></a>
-                        </li>
-                        <li>
-                            <a title="My GitHub" target="_blank" href="https://github.com/BeanGreen247"><img height="25px" width="25px" src="icons/github.png"></img></a>
-                        </li>
-                        <li>
-                            <a title="My Slack" target="_blank" href="https://join.slack.com/t/tomasmozdren/shared_invite/enQtNzAxNTY1Nzg1MDEwLTVhMmQ4YTU5ZGMyZTFlMzc3NTQ0ZTMxMGUzYTYzMzlmZTZmNmU3ZDk5NzdiYzc3MDNiNDZlMGRlZjUwMTdlMDk"><img height="25px" width="25px" src="icons/slack.png"></a>
-                        </li>
-                        <li>
-                            <a title="My Instagram" target="_blank" href="https://www.instagram.com/beangreen247/"><img height="25px" width="25px" src="icons/instagram.png"></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright ©  beangreen247.github.io 2020</p>
-                    <a href="pages/privacy.html">Privacy Policy</a>
-        </footer>
+    <div class="grid-item">
+      <br><br><br><br><br><br><br>
+      <a target="_blank" href="https://github.com/BeanGreen247/ImageToASCIIConverter"><img src="img/imagetoasciiconverter.png" height="40%" width="100%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="https://github.com/BeanGreen247/Windows-10-Minimizer"><img src="img/windows10minimizer.png" height="40%" width="100%" class="hover-shadow cursor"></a>
     </div>
+    <div class="grid-item">
+      <br id="wallpapers"><br><br><br><br><br>
+      <h2>Wallpapers</h2>
+      <hr class="small">
+      <p>Some Wallpapers I have made...</p>
+    </div>
+    <div class="grid-item">
+      <br><br><br><br><br><br>
+      <a target="_blank" href="wallpaper/MINIMALIST_PHONE_WALLPAPER.png"><img src="wallpaper/MINIMALIST_PHONE_WALLPAPER.png" height="20%" width="15%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/phone-wallpaper.jpg"><img src="wallpaper/phone-wallpaper.jpg" height="20%" width="15%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/1-material-wallpaper-phone.png"><img src="wallpaper/1-material-wallpaper-phone.png" height="20%" width="15%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/1-minimal-wallpaper-phone.png"><img src="wallpaper/1-minimal-wallpaper-phone.png" height="20%" width="15%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/1-rainbowrgb-wallpaper-phone.png"><img src="wallpaper/1-rainbowrgb-wallpaper-phone.png" height="20%" width="15%" class="hover-shadow cursor"></a>
+      <hr class="small">
+      <a target="_blank" href="wallpaper/bluescreenwallpaper.png"><img src="wallpaper/bluescreenwallpaper.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/I_LOVE_PYTHON.png"><img src="wallpaper/I_LOVE_PYTHON.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/MINIMALIST_WALLPAPER-4K.png"><img src="wallpaper/MINIMALIST_WALLPAPER-4K.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/wallpaper.png"><img src="wallpaper/wallpaper.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/nature01.jpg"><img src="wallpaper/nature01.jpg" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/nature02.jpg"><img src="wallpaper/nature02.jpg" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/nature03.jpg"><img src="wallpaper/nature03.jpg" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/nature04.jpg"><img src="wallpaper/nature04.jpg" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/1-material-wallpaper.png"><img src="wallpaper/1-material-wallpaper.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/1-minimal-wallpaper.png"><img src="wallpaper/1-minimal-wallpaper.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+      <a target="_blank" href="wallpaper/1-rainbowrgb-wallpaper-.png"><img src="wallpaper/1-rainbowrgb-wallpaper-.png" height="10%" width="40%" class="hover-shadow cursor"></a>
+    </div>
+    </div>
+    <br><br><br><br>
+    <div id="contact" class="footertext">
+    <footer>
+      <h2><strong>Thomas Mozdren Software Development</strong></h2>
+            <ul class="list-unstyled">
+                <li>Email:  <a href="mailto:mozdrent@gmail.com">mozdrent@gmail.com</a></li>
+            </ul>
+            <ul class="botbar">
+                          <li>
+                              <a title="My Linkedin" target="_blank" href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-mozd%C5%99e%C5%88-3382b71a6/"><img height="25px" width="25px" src="icons/linkedin.png"></img></a>
+                          </li>
+                          <li>
+                              <a title="My Twitter" target="_blank" href="https://twitter.com/beangreen247"><img height="25px" width="25px" src="icons/twitter.png"></img></a>
+                          </li>
+                          <li>
+                              <a title="Main channel" target="_blank" href="https://www.youtube.com/channel/UCQbA5Nc4oq6uMS2idDWsxkw"><img height="25px" width="25px" src="icons/yt.png"></img></a>
+                          </li>
+                          <li>
+                              <a title="Music channel" target="_blank" href="https://www.youtube.com/channel/UC_Qo-mebrSPXU7EpkyJfJ0g"><img height="25px" width="25px" src="icons/yt.png"></img></a>
+                          </li>
+                          <li>
+                              <a title="My GitHub" target="_blank" href="https://github.com/BeanGreen247"><img height="25px" width="25px" src="icons/github.png"></img></a>
+                          </li>
+                          <li>
+                              <a title="My Slack" target="_blank" href="https://join.slack.com/t/tomasmozdren/shared_invite/enQtNzAxNTY1Nzg1MDEwLTVhMmQ4YTU5ZGMyZTFlMzc3NTQ0ZTMxMGUzYTYzMzlmZTZmNmU3ZDk5NzdiYzc3MDNiNDZlMGRlZjUwMTdlMDk"><img height="25px" width="25px" src="icons/slack.png"></a>
+                          </li>
+                          <li>
+                              <a title="My Instagram" target="_blank" href="https://www.instagram.com/beangreen247/"><img height="25px" width="25px" src="icons/instagram.png"></a>
+                          </li>
+                      </ul>
+                      <hr class="small">
+                      <p class="text-muted">Copyright ©  beangreen247.github.io 2020</p>
+                      <a href="pages/privacy.html">Privacy Policy</a>
+          </footer>
+        </div>
 </body>
 </html>
