@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: beangreen247.github.io
+Token: a713c6c75190498648e8edf665791052e6d7068c0f8e9309b6ce4afb96b13728
