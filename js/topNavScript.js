@@ -5,7 +5,6 @@ document.write(
     "<a href='#contact'><i class='fa fa-fw fa-address-book'></i><span>Contact</span></a>"+
     "<a href='#wallpapers'><i class='fa fa-fw fa-picture-o'></i><span>Wallpapers</span></a>"+
     "<a href='#software'><i class='fa fa-fw fa-tasks'></i><span>Software</span></a>"+
-    "<a href='#os'><i class='fa fa-fw fa-linux'></i><span>OS</span></a>"+
     "<a href='#setup'><i class='fa fa-fw fa-desktop'></i><span>Workstation</span></a>"+
     "<a href='#documents'><i class='fa fa-fw fa-file-text'></i><span>Documents</span></a>"+
     "<a href='#projects'><i class='fa fa-fw fa-terminal'></i><span>Projects</span></a>"+
